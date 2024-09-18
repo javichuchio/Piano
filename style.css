@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: red;
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+
+}
+
+.key {
+    border: 1px solid black
+}
+
+.white-key {
+    width: 50px;
+    height: 200px;
+}
+
+.nigga-key {
+    height: 100px;
+    width: 25px;
+    background-color: black;
+    color: white;
+    position: absolute;
+
+
+}
+
+[data-note='C#4'] {
+    left: 46px;
+}
+
+[data-note='D#4'] {
+    left: 111px;
+}
+
+[data-note='F#4'] {
+    left: 239px;
+}
+
+[data-note='G#4'] {
+    left: 303px;
+}
+
+[data-note='A#4'] {
+    left: 367px;
+}
